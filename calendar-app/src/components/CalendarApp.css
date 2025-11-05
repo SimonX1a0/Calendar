@@ -1,0 +1,8 @@
+.calendar-app{
+    width: 60%;
+    min-width: 90vmin;
+    border: 2px solid white;
+    display:grid;
+    place-items: center;
+    aspect-ratio: 4/3;
+}
