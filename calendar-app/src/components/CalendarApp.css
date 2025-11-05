@@ -1,8 +1,51 @@
 .calendar-app{
     width: 60%;
     min-width: 90vmin;
-    border: 2px solid white;
-    display:grid;
-    place-items: center;
-    aspect-ratio: 4/3;
+    aspect-ratio: 3/2;
+    background-color: #1e242d;
+    padding: 3rem;
+    border-radius: 3rem;
+    border: 1rem solid #0f1319;
+    display:flex;
+    column-gap: 5rem;
+    position: relative;
+    transform-style: preserve-3d;
+    z-index: 1;
 }
+/* 
+.calendar-app::after{
+    content: '';
+    position: absolute;
+    bottom:-12rem;
+    left:50%;
+    transform:translate(-50%) rotateX(50deg);
+    width:90%;
+    height:90%;
+    background-color:rgba(0,0,0,0.5);
+    border-radius: 20rem;
+    filter: blur(4rem);
+    z-index: -1;
+} */
+
+.calendar{
+    width:40%;
+}
+
+.heading{
+    font-family: "Bebas neue", sans-serif;
+    font-size: clamp(4rem, 3.8cqi, 7rems);
+    color:white;
+    letter-spacing:0.3rem;
+}
+
+.navigate-date{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin: 3.5rem 0rem;
+}
+
+.navigate-date h2{
+
+}
+
